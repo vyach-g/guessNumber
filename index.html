@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessNumber</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="contain">
+            <div class="result" id="res">Угадайте число <br> от 0 до 99</div>
+            <input type="text" class="input" id="inp" placeholder="00" maxlength="2">
+            <button class="button" id ="butt" onclick="attempt();">Угадать</button>
+            <button class="random" id="rand" onclick="newRandom();">Новое случайное число</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
